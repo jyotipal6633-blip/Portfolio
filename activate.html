@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FormSubmit Activation Test</title>
+<style>
+  body{font-family:Arial,sans-serif;max-width:420px;margin:40px auto;padding:0 16px;background:#0b1020;color:#fff}
+  input,textarea,button{width:100%;padding:10px;margin:6px 0;border-radius:8px;border:1px solid #334;font-size:15px;box-sizing:border-box}
+  button{background:#10b981;border:none;font-weight:bold;cursor:pointer}
+  p{color:#9ca3af;font-size:14px}
+</style>
+</head>
+<body>
+  <h2>FormSubmit Activation Test</h2>
+  <p>Submit once. You will be taken to the FormSubmit site. Then check jyoti.pal6633@gmail.com (Inbox, Spam, Promotions) for the activation email.</p>
+
+  <form action="https://formsubmit.co/jyoti.pal6633@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Your email" required>
+    <textarea name="message" rows="3" placeholder="Message" required></textarea>
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="Portfolio activation test">
+    <button type="submit">Send Test</button>
+  </form>
+</body>
+</html>
